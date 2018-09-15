@@ -1,0 +1,54 @@
+name: space_spin
+description: A Flutter space game
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: "^0.1.0"
+  firebase_admob: "^0.5.0"
+  firebase_analytics: "^0.3.0"
+  firebase_database: "^0.4.1"
+  google_sign_in: "^3.0.0"
+  path_provider: "^0.4.0"
+  uuid: "^0.5.3"
+  vector_math: "^2.0.5"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # https://www.freepik.com/free-vector/milky-way-planets_800857.htm#term=planets&page=1&position=13
+  # https://www.vecteezy.com/vector-art/96089-cartoon-planet-icons
+
+  assets:
+    - assets/images/title-background.png
+    - assets/images/game-background.png
+    - assets/images/results-background.png
+    - assets/images/mercury.png
+    - assets/images/venus.png
+    - assets/images/earth.png
+    - assets/images/mars.png
+    - assets/images/jupiter.png
+    - assets/images/saturn.png
+    - assets/images/rings.png
+    - assets/images/uranus.png
+    - assets/images/neptune.png
+    - assets/images/pluto.png
+    - assets/images/moon.png
+    - assets/images/rocket.png
+    - assets/images/rocket-blast.png
+
+    - assets/words/adjectives-short.txt
+    - assets/words/nouns.txt
+
+  fonts:
+    - family: RammettoOne
+      fonts:
+        - asset: assets/fonts/RammettoOne-Regular.ttf
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
